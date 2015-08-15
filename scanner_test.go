@@ -29,6 +29,9 @@ func TestScansOTRMessages(t *testing.T) {
 		// Data msg
 		"?OTR:AAMDN7l3Gi0f7xEAAAAABAAAAAQAAADAxwZA4PbvhtHOyo+UjzW4JlriUhGG7v1iev.",
 
+		//Error
+		"?OTR Error: Something bad happened",
+
 		// Fragments v2
 		"?OTR,1,3,?OTR:AAEDAAAAAQAAAAEAAADAVf3Ei72ZgFeKqWvLMnutsQAAAF2SOrDvmZw6g,",
 		"?OTR,2,3,JvPUerB9mtf4bqQDFthfoz/XepysnYuReHHEXKe+BFkaEoMNGiBl4TCLZx72gr,",
